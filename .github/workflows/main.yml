@@ -1,0 +1,46 @@
+name: Build and Upload
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Prepare workflow directory
+        run: echo "Preparing workflow directory"
+
+      - name: Prepare all required actions
+        run: echo "Preparing all required actions"
+
+      - name: Get action download info
+        run: echo "Getting action download info"
+
+      - name: Download actions
+        run: |
+          echo "Downloading actions"
+          echo "Downloading actions/checkout@v4"
+          echo "Downloading actions/upload-pages-artifact@v3"
+          echo "Downloading actions/upload-artifact@v4"
+
+      - name: Complete job
+        run: echo "Complete job name: build"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-artifact
+          path: path/to/artifact
+          
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: path/to/pages
