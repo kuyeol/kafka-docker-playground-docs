@@ -9,8 +9,8 @@
 
 
 - **Links**
-- [<img src="https://github.com/vdesabou/kafka-docker-playground/raw/master/images/icons/octocat.png" width="20">GitHub](https://github.com/vdesabou/kafka-docker-playground)
-- [🤖 CI](https://github.com/vdesabou/kafka-docker-playground/actions)
-- [🔥 Issues](https://github.com/vdesabou/kafka-docker-playground/issues)
-- [💞 Contributing](https://github.com/vdesabou/kafka-docker-playground/blob/master/CONTRIBUTING.md)
+- [<img src="https://github.com/kuyeol/kafka-docker-playground/raw/master/images/icons/octocat.png" width="20">GitHub](https://github.com/vdesabou/kafka-docker-playground)
+- [🤖 CI](https://github.com/kuyeol/kafka-docker-playground/actions)
+- [🔥 Issues](https://github.com/kuyeol/kafka-docker-playground/issues)
+- [💞 Contributing](https://github.com/kuyeol/kafka-docker-playground/blob/master/CONTRIBUTING.md)
 - [📜 Changelog](/changelog.md)
