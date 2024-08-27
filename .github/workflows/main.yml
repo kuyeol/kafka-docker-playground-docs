@@ -31,8 +31,6 @@ jobs:
           echo "Downloading actions/upload-pages-artifact@v3"
           echo "Downloading actions/upload-artifact@v4"
 
-      - name: Complete job
-        run: echo "Complete job name: build"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
