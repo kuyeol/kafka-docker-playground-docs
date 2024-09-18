@@ -1,6 +1,6 @@
 - **Getting Started**
 - [🐳 Introduction](/introduction.md)
-- [👾 Content](/content.md)
+- [👾 카테고리](/content.md)
 - [🚀 How to Use](/how-to-use.md)
 - [🧠 CLI](/cli.md)
 - [🎓 How it works](/how-it-works.md)
